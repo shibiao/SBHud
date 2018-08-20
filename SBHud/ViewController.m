@@ -9,13 +9,21 @@
 #import "ViewController.h"
 
 @implementation ViewController
-
+-(SBHub *)hb {
+    if (!_hb) {
+        _hb = [[SBHub alloc]init];
+    }
+    return _hb;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)handleButton:(id)sender {
+    [self.hb show];
+}
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];

@@ -12,6 +12,8 @@
 		51237BE021217DAE004E8B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51237BDF21217DAE004E8B70 /* Assets.xcassets */; };
 		51237BE321217DAE004E8B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51237BE121217DAE004E8B70 /* Main.storyboard */; };
 		51237BE621217DAE004E8B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51237BE521217DAE004E8B70 /* main.m */; };
+		51237BF121217DB7004E8B70 /* SBHubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51237BEF21217DB7004E8B70 /* SBHubViewController.m */; };
+		51237BF221217DB7004E8B70 /* SBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 51237BF021217DB7004E8B70 /* SBHub.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,10 @@
 		51237BE421217DAE004E8B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51237BE521217DAE004E8B70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51237BE721217DAE004E8B70 /* SBHud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SBHud.entitlements; sourceTree = "<group>"; };
+		51237BED21217DB7004E8B70 /* SBHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBHub.h; sourceTree = "<group>"; };
+		51237BEE21217DB7004E8B70 /* SBHubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBHubViewController.h; sourceTree = "<group>"; };
+		51237BEF21217DB7004E8B70 /* SBHubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBHubViewController.m; sourceTree = "<group>"; };
+		51237BF021217DB7004E8B70 /* SBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBHub.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 				51237BDA21217DAD004E8B70 /* AppDelegate.m */,
 				51237BDC21217DAD004E8B70 /* ViewController.h */,
 				51237BDD21217DAD004E8B70 /* ViewController.m */,
+				51237BED21217DB7004E8B70 /* SBHub.h */,
+				51237BF021217DB7004E8B70 /* SBHub.m */,
+				51237BEE21217DB7004E8B70 /* SBHubViewController.h */,
+				51237BEF21217DB7004E8B70 /* SBHubViewController.m */,
 				51237BDF21217DAE004E8B70 /* Assets.xcassets */,
 				51237BE121217DAE004E8B70 /* Main.storyboard */,
 				51237BE421217DAE004E8B70 /* Info.plist */,
@@ -139,9 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51237BF221217DB7004E8B70 /* SBHub.m in Sources */,
 				51237BDE21217DAD004E8B70 /* ViewController.m in Sources */,
 				51237BE621217DAE004E8B70 /* main.m in Sources */,
 				51237BDB21217DAD004E8B70 /* AppDelegate.m in Sources */,
+				51237BF121217DB7004E8B70 /* SBHubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
